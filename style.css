@@ -1,0 +1,302 @@
+/** -- RESPONSIVE -- **/
+
+/*media: type d'écran de sortie. Quelques-unes des valeurs possibles :*/
+
+/*screen: écran « classique » ;*/
+
+/*handheld: périphérique mobile ;*/
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+/** -- --------------- -- **/
+/** -- POUR LES BOUTONS -- **/
+
+.button_dropdown, .button {
+    background-color: rgb(155,153,255);
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown_list {
+    display: none;
+    position: absolute;
+    background-color: rgb(223, 222, 252);
+    min-width: 160px;
+    overflow: auto;
+    z-index: 1;
+}
+
+.list:hover{
+    color : white;
+    background-color: rgba(164, 149, 230, 0.5);
+}
+
+#menu_content, #book_dropdown, #destinations_dropdown, #prices_content, #alerts_content,#contact_content {
+    position: relative;
+    display: inline-block;
+    width: auto;
+}
+
+.dropdown_list a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/** -- --------------- -- **/
+
+#head {
+    background-color: rgb(204,254,255);
+    height: 10px;
+    border-bottom: solid black 1px;
+    margin: -10px 0 0 -10px;
+}
+
+#head a{
+    text-decoration: none;
+}
+
+#position{
+    margin: -72px 0 0 485px;
+}
+#menu, #head, #photos, #trip, #about, footer {
+    padding: 10px 0 60px 0;
+    border-bottom: solid black 1px;
+}
+
+#menu {
+    background-color: rgb(155,153,255);
+}
+
+#photos {
+    background-color: rgb(204,254,255);
+}
+
+.mySlides img {
+    width: 100%;
+}
+
+#trip {
+    background-color: rgb(255,255,255);
+    padding: 10px 0 0 0;
+}
+
+#about {
+    background-color: rgb(204,254,255);
+}
+
+footer {
+    background-color: rgb(155,153,255);
+}
+
+#subscribe {
+    height: 35px;
+    width: 100px;
+    background : rgb(130,173,108);
+    border-radius: 5px;
+    text-align: center;
+    color : white;
+    font-size: 15px;
+    border: solid black 1px;
+}
+
+#subscribe:hover {
+    background : rgb(97, 136, 78);
+}
+
+.head_trip_activite{
+    background-color: rgb(155,153,255);
+}
+
+.destination{
+    display: flex;
+    align-items: stretch;
+}
+
+.end{
+    list-style: none;
+    position: relative;
+    display: inline;
+    width: auto;
+    text-decoration: none;
+    color : black;
+    font-weight: bold;
+    padding: 0 97px 0 0;
+}
+
+.end:hover{
+    text-decoration: underline;
+}
+
+h1{
+     font-family: 'Raleway', sans-serif;
+     font-size: 30px;
+     color: black;
+     border-bottom: solid #c0c0c0 1px;
+     padding: 0 0 45px 0;
+ }
+
+h2{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 30px;
+    color: black;
+    padding: 0 0 45px 0;
+    border-bottom: solid #cdcdcd 1px;
+}
+.more_info>a{
+     color : #d30000;
+     text-decoration: none;
+ }
+.more_info>a:hover{
+    color : #ff0200;
+    text-decoration: underline;
+}
+
+.clear{
+    clear: left;
+}
+
+#p_feu,#p_ours,#p_tente{
+    height: 150px;
+    color: white;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 47px 0 0 0;
+}
+
+#activite_feu,#activite_tente,#activite_ours{
+    padding-right: 1%;
+    width : 32%;
+    float: left;
+}
+
+#lorem_one, #lorem_two,#lorem_tree{
+    background-color : rgb(255,255,255) ;
+}
+
+#assets_feu,#assets_tente,#assets_ours{
+    float: left;
+    margin: 15px 16px 0 19px;
+}
+
+.head_trip_activite{
+    height: 150px;
+}
+
+#img_fr,#img_br,#img_al{
+    padding-right: 1%;
+    width : 32%;
+    float: left;
+}
+
+.drapeau{
+    border : solid #a6a6a6 1px;
+    border-radius: 5px;
+}
+
+#logo_fr,#logo_br,#logo_al{
+    margin: 5px 0 0 5px;
+    width: 95%;
+}
+
+.legend{
+    color : black;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#about_us{
+    width:50%;
+    float: left;
+}
+
+#why_us {
+    width: 50%;
+    float: left;
+}
+
+#lorem_four{
+    font-size: 20px;
+}
+
+#lorem_eight{
+    width:100%;
+    font-size: 20px;
+}
+
+.image_about{
+    float: left;
+    width: 20%;
+}
+
+#lorem_five, #lorem_six, #lorem_seven {
+    float: left;
+    width: 80%;
+    font-size: 12px;
+}
+
+/* Screen */
+/* Large Screen */
+@media only screen and (max-width: 1050px) {
+
+    .container {
+        width: 750px;
+    }
+
+    #position {
+        margin: auto;
+    }
+}
+/* Medium Screen */
+@media only screen and (max-width: 750px) {
+    .container {
+        width: 420px;
+    }
+
+    #menu_content, #book_dropdown, #destinations_dropdown, #prices_content, #alerts_content,#contact_content {
+        display: block;
+        width: 100%;
+        border-top: solid 1px gray;
+        border-bottom: solid 1px gray;
+    }
+
+    #activite_feu, #activite_tente, #activite_ours {
+        padding-right: 0;
+        width: 100%;
+    }
+
+    #img_fr, #img_br, #img_al {
+        padding-right: 0;
+        width: 100%;
+    }
+
+    #logo_fr, #logo_br, #logo_al {
+        width: 98%;
+    }
+
+    #about_us {
+        width: 100%;
+    }
+
+    #why_us {
+        width: 100%;
+    }
+}
+/* Small Screen */
+@media only screen and (max-width: 420px) {
+    .container {
+        width: 100%;
+    }
+}

@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Safy move safer move Safy</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow&display=swap" rel="stylesheet">
+<!--    <meta name="viewport" content="width=device-width, user-scalable=no">-->
+</head>
+
+<body>
+    <div id="head">
+        <div class="container">
+            <a href="https://www.facebook.com/" lang="fr"><img src="assets/19.png" alt="Logo rouge de notre réseau social Facebook"></a>
+            <a href="https://twitter.com/?lang=fr" lang="fr"><img src="assets/20.png" alt="Logo rouge de notre réseau social Twitter"></a>
+        </div>
+    </div>
+
+    <div id="menu">
+        <div class="container">
+            <img src="assets/18.jpg.png" alt="Image du logo de notre site web Safy" id="logo_safy">
+
+            <div id="position">
+                <div id="menu_content">
+                    <button class="button"> Home </button>
+                </div>
+
+                <div id = "book_dropdown">
+                    <button onclick="dropdown_list_first()" class="button_dropdown"> Book </button>
+                    <div id="first_dropdown" class="dropdown_list">
+                        <a href="#france_book" class="list">Book France</a>
+                        <a href="#brazil_book" class="list">Book Brazil</a>
+                        <a href="#algeria_book" class="list">Book Algeria</a>
+                    </div>
+                </div>
+
+                <div id = "destinations_dropdown">
+                    <button onclick="dropdown_list_second()" class="button_dropdown"> Destinations </button>
+                    <div id="second_dropdown" class="dropdown_list">
+                        <a href="#france" class="list">France</a>
+                        <a href="#brazil" class="list">Brazil</a>
+                        <a href="#algeria" class="list">Algeria</a>
+                    </div>
+                </div>
+
+                <div id="prices_content">
+                    <button class="button">Prices</button>
+                </div>
+
+                <div id="alerts_content">
+                    <button class="button" > Alerts </button>
+                </div>
+
+                <div id="contact_content">
+                    <button class="button" > Contact </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="photos">
+        <div class="container">
+            <div class="containers">
+                <div class="mySlides">
+                    <img src="assets/6.jpg" alt="photo travel safety tips">
+                </div>
+
+                <div class="mySlides">
+                    <img src="assets/7.jpg" alt="girl on the road">
+                </div>
+
+                <div class="mySlides">
+                    <img src="assets/8.jpg" alt="guy climbs the rock">
+                </div>
+
+                <div class="mySlides">
+                    <img src="assets/9.jpg" alt="photographer">
+                </div>
+
+                <div class="mySlides">
+                    <img src="assets/10.jpg" alt="Group of otoctone carrying water">
+                </div>
+
+                <div class="mySlides">
+                    <img src="assets/11.jpg" alt="surfer under the sea">
+                </div>
+            </div>
+            <p><span id="overlay">Tips to travel around the world</span></p>
+        </div>
+    </div>
+
+    <div id="trip">
+        <div class="container">
+            <div id="activite_feu">
+                <div class="head_trip_activite">
+                    <img src="assets/13.png" alt="Logo feu de camp" id="assets_feu">
+                    <p id="p_feu">Safe, structured and <br> amazing application</p>
+                </div>
+
+                <div class="clear"></div>
+
+                <div id="lorem_one">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias aspernatur, autem cum dolore earum est
+                        eum expedita fugit ipsam non praesentium quasi quia, quo rem sit totam vel voluptatibus? Ab accusamus
+                        accusantium corporis deleniti dolorem dolores, doloribus eius error et fuga impedit laboriosam nam
+                        nesciunt nulla omnis quam quia quis, quisquam, rem sequi? Culpa iste nisi sunt tempore veritatis.
+                        A aut doloremque doloribus laudantium quasi reiciendis saepe sequi! Amet animi asperiores corporis earum
+                        error esse eum fugiat ipsum libero natus, neque nihil obcaecati omnis perspiciatis quidem sit tenetur
+                        vitae.
+                        <br>
+                        <span class="more_info">
+                        <a href="#more">more info</a>
+                    </span>
+                    </p>
+                </div>
+            </div>
+
+            <div id="activite_tente">
+                <div class="head_trip_activite">
+                    <img src="assets/17.png" alt="Logo d'un tipie indien pour la camping" id="assets_tente">
+                    <p id="p_tente"> The sun is shining <br> today, book your <br>trip</p>
+                </div>
+
+                <div class="clear"></div>
+
+                <div id="lorem_two">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias aspernatur, autem cum dolore earum est
+                        eum expedita fugit ipsam non praesentium quasi quia, quo rem sit totam vel voluptatibus? Ab accusamus
+                        accusantium corporis deleniti dolorem dolores, doloribus eius error et fuga impedit laboriosam nam
+                        nesciunt nulla omnis quam quia quis, quisquam, rem sequi? Culpa iste nisi sunt tempore veritatis.
+                        A aut doloremque doloribus laudantium quasi reiciendis saepe sequi! Amet animi asperiores corporis earum
+                        error esse eum fugiat ipsum libero natus, neque nihil obcaecati omnis perspiciatis quidem sit tenetur
+                        vitae.
+                        <br>
+                        <span class="more_info">
+                        <a href="#more">more info</a>
+                    </span>
+                    </p>
+                </div>
+            </div>
+
+            <div id="activite_ours">
+                <div class="head_trip_activite">
+                    <img src="assets/12.png" alt="Logo empreinte d'animal" id="assets_ours">
+                    <p id="p_ours">Meet new people and <br> live more intensely</p>
+                </div>
+
+                <div class="clear"></div>
+
+                <div id="lorem_tree">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias aspernatur, autem cum dolore earum est
+                        eum expedita fugit ipsam non praesentium quasi quia, quo rem sit totam vel voluptatibus? Ab accusamus
+                        accusantium corporis deleniti dolorem dolores, doloribus eius error et fuga impedit laboriosam nam
+                        nesciunt nulla omnis quam quia quis, quisquam, rem sequi? Culpa iste nisi sunt tempore veritatis.
+                        A aut doloremque doloribus laudantium quasi reiciendis saepe sequi! Amet animi asperiores corporis earum
+                        error esse eum fugiat ipsum libero natus, neque nihil obcaecati omnis perspiciatis quidem sit tenetur
+                        vitae.
+                        <br>
+                        <span class="more_info">
+                        <a href="#more">more info</a>
+                    </span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="clear"></div>
+
+            <div id="destination">
+                <div id="titre_destination">
+                    <h2>Destination</h2>
+                </div>
+
+                <div id="img_fr">
+                    <div class="drapeau">
+                        <img src="assets/3.jpg" alt="Logo du drapeau de la France" id="logo_fr">
+                    </div>
+
+                    <p class="legend">France</p>
+                </div>
+
+                <div id="img_br">
+                    <div class="drapeau">
+                        <img src="assets/4.jpg" alt="Logo du drapeau du Brésil" id="logo_br">
+                    </div>
+
+                    <p class="legend">Brazil</p>
+                </div>
+
+                <div id="img_al">
+                    <div class="drapeau">
+                        <img src="assets/5.jpg" alt="Logo du drapeau de la l'Algerie"  id="logo_al">
+                    </div>
+
+                    <p class="legend">Algeria</p>
+                </div>
+
+                <div class="clear"></div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div id="about_us">
+
+                <h1> About Us</h1>
+                <p>
+                <span id="lorem_four">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias aspernatur, autem cum dolore earum
+                    est eum expedita fugit ipsam non praesentium quasi quia, quo rem sit totam vel voluptatibus?
+                    <br>
+                    <br>
+                    Ab accusamus accusantium corporis deleniti dolorem dolores, doloribus eius error et fuga impedit
+                    laboriosam nam nesciunt nulla omnis quam quia quis, quisquam, rem sequi?
+                    <br>
+                    <br>
+                    Culpa iste nisi sunt tempore veritatis.A aut doloremque doloribus laudantium quasi reiciendis saepe
+                    sequi! Amet animi asperiores corporis earum error esse eum fugiat ipsum libero natus, neque nihil
+                    obcaecati omnis perspiciatis quidem sit tenetur vitae.
+                </span>
+                </p>
+
+            </div>
+
+            <div id="why_us">
+                <h1> Why Us</h1>
+
+                <div class="box">
+                    <img class="image_about" src="assets/14.png" alt="Logo d'une boussole">
+                    <div id="lorem_five">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias aspernatur, autem cum dolore earum est
+                        eum expedita fugit ipsam non praesentium quasi quia, quo rem sit totam vel voluptatibus? Ab accusamus
+                        accusantium corporis deleniti dolorem dolores, doloribus eius error et fuga impedit laboriosam nam
+                        nesciunt nulla omnis quam quia quis, quisquam, rem sequi? Culpa iste nisi sunt tempore veritatis.
+                        <br>
+                        <br>
+                        A aut doloremque doloribus laudantium quasi reiciendis saepe sequi! Amet animi asperiores corporis earum
+                        error esse eum fugiat ipsum libero natus, neque nihil obcaecati omnis perspiciatis quidem sit tenetur
+                        vitae.
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img class="image_about" src="assets/15.png" alt="Logo d'une carte">
+                    <div id="lorem_six">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias aspernatur, autem cum dolore earum est
+                        eum expedita fugit ipsam non praesentium quasi quia, quo rem sit totam vel voluptatibus? Ab accusamus
+                        accusantium corporis deleniti dolorem dolores, doloribus eius error et fuga impedit laboriosam nam
+                        nesciunt nulla omnis quam quia quis, quisquam, rem sequi? Culpa iste nisi sunt tempore veritatis.
+                        <br>
+                        <br>
+                        A aut doloremque doloribus laudantium quasi reiciendis saepe sequi! Amet animi asperiores corporis earum
+                        error esse eum fugiat ipsum libero natus, neque nihil obcaecati omnis perspiciatis quidem sit tenetur
+                        vitae.
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img class="image_about" src="assets/16.png" alt="Logo d'un vélo'">
+                    <div id="lorem_seven">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias aspernatur, autem cum dolore earum est
+                        eum expedita fugit ipsam non praesentium quasi quia, quo rem sit totam vel voluptatibus? Ab accusamus
+                        accusantium corporis deleniti dolorem dolores, doloribus eius error et fuga impedit laboriosam nam
+                        nesciunt nulla omnis quam quia quis, quisquam, rem sequi?
+                        <br>
+                        <br>
+                        Culpa iste nisi sunt tempore veritatis. A aut doloremque doloribus laudantium quasi reiciendis saepe
+                        sequi! Amet animi asperiores corporis earum error esse eum fugiat ipsum libero natus, neque nihil
+                        obcaecati omnis perspiciatis quidem sit tenetur vitae.
+                    </div>
+                </div>
+
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+
+            <div id="travel">
+                <h1> How to travel ?</h1>
+                <div id="lorem_eight">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias aspernatur, autem cum dolore earum est
+                    eum expedita fugit ipsam non praesentium quasi quia, quo rem sit totam vel voluptatibus? Ab accusamus
+                    accusantium corporis deleniti dolorem dolores, doloribus eius error et fuga impedit laboriosam nam
+                    nesciunt nulla omnis quam quia quis, quisquam, rem sequi?
+                    <br>
+                    <br>
+                    Culpa iste nisi sunt tempore veritatis. A aut doloremque doloribus laudantium quasi reiciendis saepe
+                    sequi! Amet animi asperiores corporis earum error esse eum fugiat ipsum libero natus, neque nihil
+                    obcaecati omnis perspiciatis quidem sit tenetur vitae.
+
+                </div>
+            </div>
+
+            <button id="subscribe">Subscribe</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <a href="#home" class="end" >
+                Home
+            </a>
+
+            <a href="#book" class="end">
+                Book
+            </a>
+
+            <a href="#destination" class="end">
+                Destinations
+            </a>
+
+            <a href="#prices" class="end">
+                Prices
+            </a>
+
+            <a href="#alerts" class="end">
+                Alerts
+            </a>
+
+            <a href="#contact" class="end">
+                Contact
+            </a>
+
+            <p id="copyright">© There is no birds here Look around.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
