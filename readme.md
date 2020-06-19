@@ -14,7 +14,7 @@ conforme au visuel, respectant les normes du W3C et optimisant au mieux le r√©f√
 
 ### Mon rendu
 
-![Attendu](./.github/preview/attendu/1.png)
-![Attendu](./.github/preview/attendu/2.png)
-![Attendu](./.github/preview/attendu/3.png)
+![Attendu](./.github/preview/1.png)
+![Attendu](./.github/preview/2.png)
+![Attendu](./.github/preview/3.png)
 
